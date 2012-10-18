@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 1em;
+}
+
+header ul {
+  display: inline-block;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  margin: 1em;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  float: right;
+  width: 25%;
+}
+
+nav ul {
+  padding: 0;
+}
+
+article {
+  width: 70%;
+}
+
+article, nav {
+  margin: 1em;
+}
+
+footer {
+  clear: both;
+
+}
+
+
+
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  background-color: red;
+  color: white;
+}
+
+header a, nav a {
+  text-decoration: none;
+}
+
+header li {
+  list-style-type: none;
+}
+
+nav li {
+  color: red;
+  font-size: 1.5em;
+  list-style-image: url('railsgirls.png');
+  list-style-position: inside;
+}
+
+article, nav {
+  border-top: 2px solid red;
+}
+
+footer {
+  background-color: silver;
+}
